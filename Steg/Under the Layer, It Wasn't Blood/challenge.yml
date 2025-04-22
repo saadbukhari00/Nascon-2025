@@ -1,0 +1,30 @@
+name: "Under the Layer, It Wasn't Blood"
+author: 0ctrl
+category: Steganography
+description: |-
+  
+  They kept peeling, convinced the truth lay beneath. Skin gave way to sinew, sinew to something else.
+  But it wasn’t blood that seeped through the cracks. It pulsed, whispered, remembered. 
+  They should have stopped.
+
+
+value: 500 
+type: static
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{thy_0bs3rv3r_n3v3rr_sl33pss_9283}",
+      data: "case_sensitive"
+  }
+
+files:
+  - dist/unknown.pptx
+
+state: visible
+version: "0.1"

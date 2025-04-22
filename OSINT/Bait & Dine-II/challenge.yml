@@ -1,0 +1,39 @@
+name: "Bait & Dine-II"
+author: dr4g0nr00t
+category: Osint
+description: |-
+  
+  After uncovering the scammer’s hideout, I sent another investigator to track his movements. He followed the suspect’s trail along the river, gathering intel on his next move. But something went wrong. His last message was rushed:
+
+"He’s heading toward a place where the water turns brackish… something about an old estate… he’s trying to escape by boat!"
+
+Then—silence.
+
+With no further contact, all I had was the final image he sent before vanishing. Now, it’s up to you to locate his last known position. Find where he tried to make his escape, and you will uncover the flag.
+
+Flag Format: CSL{nameoflocation_XX.XXXX_YY.YYYY}
+
+
+
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{BoharBangla_32.9584_71.5475}",
+      data: "case_insensitive"
+  }
+
+files:
+  - dist/clue2.png
+
+state: visible
+version: "0.1"

@@ -1,0 +1,28 @@
+name: "Scriba"
+author: gnome_07
+category: Forensics
+description: |-
+  
+  Download the file and find the flag!
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{3cho!ng_z4_m35sa9e}",
+      data: "case_sensitive"
+  }
+
+files:
+  - dist/<file to upload>
+
+state: visible
+version: "0.1"

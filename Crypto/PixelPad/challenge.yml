@@ -1,0 +1,28 @@
+name: "PixelPad"
+author: Abdul Moiz
+category: Crypto
+description: |-
+  
+  What gibberish is this?
+
+value: 500 
+type: static
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{u_know_how_to_x0R}",
+      data: "case_sensitive"
+  }
+
+files:
+  - dist/gibber1.png
+  - dist/gibber2.png
+
+state: visible
+version: "0.1"

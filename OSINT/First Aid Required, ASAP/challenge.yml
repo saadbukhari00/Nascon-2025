@@ -1,0 +1,31 @@
+name: "First Aid Required, ASAP"
+author: dr4g0nr00t
+category: Osint
+description: |-
+  
+A blurry photo. No message. No context. Just an image of a random place, as if someone hit "send" right before things got interesting. Maybe they got lost, maybe they tripped over something, or maybe they just really need to find a hospital. Either way, your job is to figure out where this was taken, track down the nearest hospital, and pinpoint the exact three-word location where the picture was taken. The city is not as big as Lahore or Karachi, but it’s still one of those places where the quiet streets and open fields might make you feel like you’ve stepped back in time. Hopefully, they just have bad WiFi and not a broken leg.
+
+Flag Format: CSL{NameOfHospital_FirstWord_SecondWord_ThirdWord}
+
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{MotherandChildHospital_unspoiled_untrained_gravy}",
+      data: "case_insensitive"
+  }
+
+files:
+  - dist/location.png
+
+state: visible
+version: "0.1"

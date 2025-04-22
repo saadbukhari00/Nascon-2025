@@ -1,0 +1,37 @@
+name: "Crypto Fortune Teller"
+author: Abdul Moiz
+category: Crypto
+description: |-
+  
+  Randomness is an illusion.
+  
+  Random Numbers: [
+    0.4716964533196313,
+    0.5456564973145532,
+    0.20970818720192375,
+    0.12428636932997339,
+    0.9467983060151131,
+    0.29346163876538855
+  ]
+  Encrypted Flag: 865d03009ac454c63ddbf270494702fd72432d0af00ee8a28b516dcbb0271e10
+
+value: 500 
+type: static
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{ps3ud0_r4nd0m_is_ins3cur3}",
+      data: "case_sensitive"
+  }
+
+files:
+  - dist/source.js
+
+state: visible
+version: "0.1"

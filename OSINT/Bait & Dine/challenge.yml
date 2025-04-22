@@ -1,0 +1,36 @@
+name: "Bait & Dine"
+author: dr4g0nr00t
+category: Osint
+description: |-
+  
+  I was scammed online and began tracking the scammer’s location. I successfully identified his city and later discovered a crucial clue: he works at a hospital and frequently visits two restaurants. When he has little money, he eats at a small, budget-friendly restaurant, but after receiving his salary, he dines at a more expensive restaurant. These two restaurants are located near each other.
+
+To gather more intelligence, I sent a detective to the area, but he was captured. Before losing contact, he managed to send a single image of the small restaurant—without any direct hints. While on a call with him, I could hear the sound of water in the background, suggesting that the restaurant is near a river. Acting quickly, I had my satellite team capture an image of the location, which confirmed that the area is by a riverside.
+
+One final clue: the small restaurant’s name is inspired by a lake, and its name is visibly written on its wall. Using this information, You need to identify the hospital in which he works , the other restaurant name , nearest train station(The station maybe a junction , if it is write it as ( <name of station>Junction).
+
+Flag Format = > CSL{nameofexpensiveRestaurant_nameofhospital_nameoftrainStation}
+
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{GreenLagoonResturant_KhadijaHospital_KundianJunction}",
+      data: "case_insensitive"
+  }
+
+files:
+  - dist/clue.png
+  - dist/Satellite_image.png
+
+state: visible
+version: "0.1"

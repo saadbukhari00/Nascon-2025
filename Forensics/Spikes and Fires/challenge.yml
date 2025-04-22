@@ -1,0 +1,28 @@
+name: "Spikes and Fires"
+author: gnome_07
+category: Forensics
+description: |-
+  
+  This was just a regular day at the office, but our intern thinks this was something else. Prove him wrong by analyzing the provided file.
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{DuMmy_C@mp_F!r3}",
+      data: "case_sensitive"
+  }
+
+files:
+  - dist/<file to upload>
+
+state: visible
+version: "0.1"

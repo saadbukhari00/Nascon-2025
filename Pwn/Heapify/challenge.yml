@@ -1,0 +1,29 @@
+name: "Heapify"
+author: abdulrafay
+category: pwn
+description: |-
+  
+  BlackCell's operatives have deployed a mysterious memory module deep inside the system. Rumors say Phantom crafted it himself. Can you navigate the chaos and uncover the secrets within before it's too late?
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "dynamic",
+      content: "CSL{h3ap_0v3rfl0w}",
+      data: "case_insensitive"
+  }
+
+files:
+  - dist/chall
+
+state: visible
+version: "0.1"
+

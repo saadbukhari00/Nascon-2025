@@ -1,0 +1,30 @@
+name: "Inaudible Ink"
+author: 0ctrl
+category: Steganography
+description: |-
+  
+  During a raid on a BlackCell APT group's hideout, investigators recovered an oLd radio transmitter.
+  Among the debriS was an audio file laBeled 'Inaudible Ink'. The group is notorious for using covert 
+  methods to communicate their plans. What message does the phantom operator have for you?..
+
+
+value: 500 
+type: static
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{d33p_1n_th3_w4v3s_000}",
+      data: "case_sensitive"
+  }
+
+files:
+  - dist/s3cr3t.wav
+
+state: visible
+version: "0.1"

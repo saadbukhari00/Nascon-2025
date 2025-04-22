@@ -1,0 +1,27 @@
+name: "Silent Obserber"
+author: Abdul Moiz
+category: Crypto
+description: |-
+  
+  The system seems secure, but if you look closely, it's telling you everything.
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "dynamic",
+      content: "CSL{t1m1ng_4tt4cks_4r3_4m4z1ng}",
+      data: "case_sensitive"
+  }
+
+files:
+  - dist/
+
+state: visible
+version: "0.1"

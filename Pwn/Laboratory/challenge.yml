@@ -1,0 +1,29 @@
+name: "Laboratory"
+author: abdulrafay
+category: pwn
+description: |-
+  
+  A hush falls over the lab as the Shadows of NasCon unveil a cryptic service. Hidden behind multiple layers, they invite you and you must bring an offering. Can you pierce the illusions, break free of the labyrinth, and reveal the secrets hidden within the binary?
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "dynamic",
+      content: "CSL{sh3llc0d3_1nj3ct10n_m4st3r}",
+      data: "case_insensitive"
+  }
+
+files:
+  - dist/chall
+
+state: visible
+version: "0.1"
+

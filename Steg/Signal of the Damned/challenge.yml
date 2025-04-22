@@ -1,0 +1,29 @@
+name: "Signal of the Damned"
+author: 0ctrl
+category: Steganography
+description: |-
+  
+  A mysterious signal has appeared on the airwaves, broadcasting eerie whispers and distorted images. 
+  Its origin is unknown, but those who listen report an unsettling feeling of being watched.
+
+
+value: 500 
+type: static
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{p33ping_thru_th3_tv_5346}",
+      data: "case_sensitive"
+  }
+
+files:
+  - dist/ent1ty.wav
+
+state: visible
+version: "0.1"

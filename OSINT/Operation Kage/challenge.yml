@@ -1,0 +1,44 @@
+name: "Operation Kage"
+author: dr4g0nr00t
+category: Osint
+description: |-
+  
+ A high-profile figure has gone missing under mysterious circumstances. Their last known location was near Tokyo Tower, but intelligence suggests they have been relocated 1000-1200 kilometers away—possibly against their will.
+
+A coded message intercepted from a secure channel reveals a crucial clue about the city where they are being held:
+
+冬季スポーツのメダルが輝く場所
+
+But there was one more unsettling detail buried in the transmission, repeating over and over, as if someone was trying to send a warning:
+
+ティックトックティックトックティックトック
+
+The picture given is of the place where the figure was kept. Identify the building next to this place. The clock is ticking—if you don’t find them soon, they may disappear forever.
+
+Flag format => CSL{nameofbuilding}
+
+
+
+
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{mariya}",
+      data: "case_insensitive"
+  }
+
+files:
+  - dist/clue.png
+
+state: visible
+version: "0.1"

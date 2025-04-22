@@ -1,0 +1,29 @@
+name: "SecureShop"
+author: abdulrafay
+category: pwn
+description: |-
+  
+  Gain access, navigate the system, and unlock the secure vault. Think carefully—nothing is as simple as it seems
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "dynamic",
+      content: "CSL{fake_flag}",
+      data: "case_insensitive"
+  }
+
+files:
+  - dist/chall
+
+state: visible
+version: "0.1"
+

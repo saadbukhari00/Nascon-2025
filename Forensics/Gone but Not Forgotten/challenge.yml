@@ -1,0 +1,33 @@
+name: "Gone but Not Forgotten"
+author: gnome_07
+category: Forensics
+description: |-
+  
+  Our SOC Team has detected some suspicious activity on one of our machines. Can you help us find out what's going on?
+  
+  Download the file below and start investigating!
+  <https://drive.google.com/file/d/12NGDOaNMJOHV2lCnyBOor1RHDuK320IT/view?usp=sharing>
+  
+  Password: W4r_dome@ctf
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{Y0u_w0nt_kn0w_wh4t_h4pp3n3d}",
+      data: "case_sensitive"
+  }
+
+files:
+  - dist/<file to upload>
+
+state: visible
+version: "0.1"

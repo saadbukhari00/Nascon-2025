@@ -1,0 +1,32 @@
+name: "Race against Time"
+author: abdulrafay
+category: pwn
+description: |-
+  
+  Deep within the Shadows of NasCon, a covert file manager has appeared. Rumor has it that members of the hacker group—led by the elusive sh4d0w—have installed hidden traps, leaving the system open to infiltration by those cunning (or daring) enough to exploit its weaknesses. Your mission is to navigate the interface, uncover hidden data, and thwart the infiltration. But be warned: the file manager’s deceptive design may lead you astray if you’re not vigilant.
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "dynamic",
+      content: "CSL{r4c3_c0nd1t10n_3xpl01t_m4st3r}",
+      data: "case_insensitive"
+  }
+
+files:
+  - dist/chall
+  - dist/flag.txt
+  - dist/operation_log.txt
+  - dist/user_config.txt
+  
+state: visible
+version: "0.1"
+

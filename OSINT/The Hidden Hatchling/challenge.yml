@@ -1,0 +1,32 @@
+name: "The Hidden Hatchling"
+author: dr4g0nr00t
+category: Osint
+description: |-
+  
+ A wannabe hacker, inspired by a random name he found online, thought it’d be super stealthy to completely rebrand himself—because, you know, that totally makes you untraceable (spoiler: it doesn’t). But here’s the kicker—this guy isn’t just into hacking; he’s also a passionate photographer, posting his work online like an open book. The best part? He uses his hacking alias as his username—no underscores, no numbers, just plain and simple, making it easier for us to track him than a grandma using her cat’s name as a password. Your mission? Find out his username on this photography platform, his date of birth, the city he lives in, and the mobile phone model he uses—because even hackers need to flex their camera specs. Oh, and don’t forget to check the EXIF data; some secrets hide in plain sight, just like this guy’s terrible opsec. 
+
+Flag format => CSL{username_dd_mm_yyyy_cityname_mobilephonemodel}
+
+
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{ShadowFeast_13_10_1994_Kazan_iPhone11ProMax}",
+      data: "case_insensitive"
+  }
+
+files:
+  - dist/Inspiration.png
+
+state: visible
+version: "0.1"

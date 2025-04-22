@@ -1,0 +1,28 @@
+name: "Mysterious Veil"
+author: gnome_07
+category: Forensics
+description: |-
+  
+  Download the file and find the flag.
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{Y0u_h4v3_unc0v3r3d_th3_S3cr3t5}",
+      data: "case_sensitive"
+  }
+
+files:
+  - dist/<file to upload>
+
+state: visible
+version: "0.1"

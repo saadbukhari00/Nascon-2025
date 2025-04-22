@@ -1,0 +1,30 @@
+name: "Ghost in the Machine"
+author: 0ctrl
+category: Steganography
+description: |-
+  
+  Every call you make echoes back to you, but the echoes are distorted...
+  and they are saying things you never said...
+  Flag Format: CSL{flag}
+
+
+value: 500 
+type: static
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{di4l t0n3s}",
+      data: "case_sensitive"
+  }
+
+files:
+  - dist/audio001.wav
+
+state: visible
+version: "0.1"

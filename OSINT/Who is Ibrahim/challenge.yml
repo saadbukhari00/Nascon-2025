@@ -1,0 +1,38 @@
+name: "Who is Ibrahim?"
+author: dr4g0nr00t
+category: Osint
+description: |-
+  
+ You know this guy? You think he’s a good guy? No, he is not—haha!
+
+Meet Hafiz Muhammad Ibrahim Iqbal. He has a deep interest in cybersecurity, especially OSINT, and spends a lot of time solving and creating CTF challenges. But recently, things have taken a suspicious turn.
+
+Our sources indicate that he has been involved in some questionable activity. He has been ordering some bad things from an online store, and he’s trying to cover his tracks.Bad things cant be odered so easily. Given his experience, he knows how to stay hidden, but not well enough.
+
+Your task is to find the name of the online store he’s using and the country where the store operates.
+
+Flag format => CSL{nameofstore_countryofstore}
+
+
+
+
+value: 500 
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 15
+  minimum: 100
+
+flags:
+  - {
+      type: "static",
+      content: "CSL{TomAndJerry_Netherlands}",
+      data: "case_insensitive"
+  }
+
+files:
+  - dist/ibrahim.png
+
+state: visible
+version: "0.1"
