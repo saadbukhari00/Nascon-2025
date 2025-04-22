@@ -48,6 +48,6 @@ python3 solve.py
 Once all puzzles were solved correctly, the server responded with:
 ```
 Congratulations! You've solved all puzzles
-CSL{H3r3_1s_y0ur_r3w4rd_TH3_FLAG_3nj0y!!_9dc9a1e16229676c65a5c2f242477c6964181f2a_6}
+CSL{H3r3_1s_y0ur_r3w4rd_TH3_FLAG_3nj0y!!_
 ```
 ---
