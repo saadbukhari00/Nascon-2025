@@ -6,11 +6,11 @@
 
 The challenge comes with a file `s3cr3t.wav`
 
-<img src="/home/abrar/.config/Typora/typora-user-images/image-20250309144043408.png" alt="image-20250309144043408" style="zoom:45%;" />
+<img src="image-20250309144043408.png" alt="image-20250309144043408" style="zoom:50%;" />
 
 `s3cr3t.wav`is a WAVE audio file. After analyzing, it sounds like Morse code so let's use an online Morse code audio decoder.
 
-<img src="/home/abrar/Pictures/Screenshots/Screenshot From 2025-03-09 03-56-47.png" style="zoom:30%;" />
+<img src="Screenshot From 2025-03-09 03-56-47.png" style="zoom:30%;" />
 
 Upon decoding the audio file, we obtain the following string.
 

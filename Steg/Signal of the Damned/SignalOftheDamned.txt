@@ -1,0 +1,9 @@
+name: "Signal of the Damned"
+author: 0ctrl
+Level: Easy
+category: Steganography
+description: |-
+  
+  A mysterious signal has appeared on the airwaves, broadcasting eerie whispers and distorted images. 
+  Its origin is unknown, but those who listen report an unsettling feeling of being watched.
+  Flag Format: CSL{}

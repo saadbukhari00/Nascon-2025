@@ -8,6 +8,8 @@ This challenge comes with an audio file `audio001.wav`
 
 Upon listening to it seems like the dial tones you hear when dialing numbers on a phone. After a few searches on Google it looks like it could be a DTMF file. 
 
+<img src="image-20250313010856201.png" alt="image-20250313010856201" style="zoom:50%;" />
+
 ------
 
 **DTMF**  **(Dual-Tone Multi-Frequency)** is the technology behind the tones you hear when you press  buttons on a telephone keypad. It uses pairs of audio tones to represent numbers, letters, and symbols. Here's how it works:
@@ -37,7 +39,7 @@ This kind of file can be decoding using the Linux command line tool `multimon-ng
 
 Lets decode it using the tool.
 
-![image-20250309234635037](/home/abrar/.config/Typora/typora-user-images/image-20250309234635037.png)
+![image-20250309234635037](image-20250309234635037.png)
 
 > [!NOTE]
 >

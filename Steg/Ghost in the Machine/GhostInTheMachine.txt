@@ -1,0 +1,8 @@
+name: "Ghost in the Machine"
+author: 0ctrl
+Level: Easy
+category: Steganography
+description: |-
+
+Every call you make echoes back to you, but the echoes are distorted...and they are saying things you never said...
+  Flag Format: CSL{flag}
